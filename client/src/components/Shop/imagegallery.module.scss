@@ -1,0 +1,133 @@
+.imagegallery{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+.imageswraper{
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.image{
+    width: 7vw;
+    object-fit: cover;
+    height: 10vh;
+    margin-bottom: 15px;
+}
+.activeimage{
+    border: 2.5px solid rgb(62, 62, 62);
+}
+.main{
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+
+.mainimage{
+    object-fit: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.wishlisticon{
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    background-color: #7596B8;
+    padding: 5px;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    & :hover{
+        transition: all 0.3s ease-in-out;
+        color: red;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main{
+        display: flex;
+        justify-content: flex-end;
+        height: 45vh;
+        align-items: center;
+    }
+    .mainimage{
+        height: 45vh;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .image{
+        width: 15vw;
+        height: 8vh;
+        margin-right: 10px;
+    }
+    .imagegallery{
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+    .imageswraper{
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
+.modal{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.507);
+    display: flex;
+    & img{
+        height: 60vh;
+        width: 60vw;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        object-fit: cover;
+    }
+    & button{
+        // position: absolute;
+        // top: 50%;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       
+    }
+    & .control{
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translate(-50%,-10%);
+        align-items: center;
+        display: flex;
+    }
+    .close{
+        height: 60px;
+        width: 60px;
+        margin-inline: 13px;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }
+    .left,.right{
+        display: flex;
+        
+    }
+}
+

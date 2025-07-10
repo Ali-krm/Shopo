@@ -1,0 +1,107 @@
+
+
+.cardslider{
+    height: 50vh;
+    width: 85%;
+    padding: 0;
+    display:flex;
+    align-items: center;
+    position: relative;
+    justify-self: center;
+    //border-radius: 10px;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+    margin-top: auto;
+    align-items: flex-start;
+    box-sizing: border-box;
+    & li {
+        list-style: none;
+    }
+}
+
+.cardwrap{
+    margin-top: 3%;
+    min-width: 29%;
+    height: 49vh;
+    padding: 0px 30px 0px 30px;
+    box-sizing: border-box;
+    //border-radius: 5px;
+    transition: .5s ease;
+
+    & > *{
+        min-width: 100%;
+    }
+}
+
+
+.cardrightbtn{
+    background: 0;
+    height: 42px;
+    width: 42px;
+    border-radius: 100vh;
+    background-color: rgb(233, 233, 233);
+    border: none;
+    color: rgb(94, 94, 94);
+    position: sticky;
+    right: 3.5%;
+    margin-top: 170px;
+    transition: 0.5s ease;
+    &:hover{
+        color: black;
+        background-color: whitesmoke;
+    }
+    
+}
+
+.cardleftbtn{
+    background: 0;
+    position: absolute;
+    margin-top: 170px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 100vh;
+    height: 42px;
+    width: 42px;
+    left: 3%;
+    border: none;
+    margin-right: 30px;
+    color: rgb(72, 72, 72);
+    left: 3%;
+    transition: 0.5s ease;
+    &:hover{
+        color: black;
+        background-color: whitesmoke;
+    }
+}
+
+
+
+
+.producttitle{
+    font-family: surveyor text a,surveyor text b,Georgia,serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #000;
+    font-size: 36px  !important;
+    line-height: 2.5;
+    letter-spacing: 0;
+
+}
+
+
+.discription{
+    font-family: din-2014,helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: .05em;
+  
+}
+
+.info{
+    text-align: center;
+    justify-items: center;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}

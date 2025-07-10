@@ -1,0 +1,25 @@
+.items{
+    width: 90%;
+    //margin-inline: auto;
+    display: grid;
+    // fr was 1 changed becase filter
+    grid-template-columns: repeat(auto-fit,minmax(300px,.2fr));
+    grid-column-gap: 2%;
+    grid-row-gap: 2rem;
+    margin: 0 auto 10% auto;
+    // align-content: center;
+    // justify-content: center;
+    // justify-items: center;
+    // height: 100%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .items{
+        
+        grid-template-columns: repeat(auto-fit,minmax(340px,.2fr));
+
+        justify-content: center;
+    }
+}

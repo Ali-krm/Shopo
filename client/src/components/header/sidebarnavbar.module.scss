@@ -1,0 +1,124 @@
+.popup {
+  position: fixed;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  width: 75vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  color: black;
+  z-index: 3;
+  transition: 0.19s ease;
+  overflow: hidden;
+}
+.navbarWrapper {
+  display: none;
+  overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  .navbarWrapper {
+    display: block;
+  }
+}
+
+.shadow {
+  z-index: 2;
+  background-color: rgba(188, 188, 188, 0.74);
+  height: 100%;
+  width: 100vw;
+  position: fixed;
+  overflow-y: hidden;
+  right: 0;
+  scrollbar-width: 0;
+  top: 0;
+}
+
+.sidebarContainer {
+  width: 90%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-inline: auto;
+  height: 100vh;
+  // margin-top: 20px;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  scrollbar-width: none;
+  & .logo {
+    margin-top: 100px;
+  }
+}
+
+.sidebarNavTop {
+  display: flex;
+  width: 100%;
+  // background-color: red;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.sidebarNavTopItem {
+  border: 1px solid #bdbdbd;
+  border-radius: 50px;
+  line-height: 50px;
+  padding: 0 40px;
+  text-align: center;
+  transition: color 0.25s ease, background-color 0.25s ease;
+  flex-basis: 45.6666666667%;
+  cursor: pointer;
+}
+
+.sidebarNavTopItemActive {
+  background-color: black;
+  color: white;
+  border: 1px solid #bdbdbd;
+  border-radius: 50px;
+  line-height: 50px;
+  padding: 0 40px;
+  text-align: center;
+  transition: color 0.25s ease, background-color 0.25s ease;
+  flex-basis: 45.6666666667%;
+  cursor: pointer;
+}
+
+.sidebarNavBottom {
+  width: 90%;
+  margin-top: 20px;
+}
+.sidebarNavBottomList {
+  list-style: none;
+
+  & :first-child {
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  & li {
+    margin-bottom: 18px;
+    font-size: 18px;
+    font-family: "AtlasGrotesk";
+  }
+}
+
+.sidebarNavTitle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.close {
+  position: absolute;
+  right: 5%;
+  top: 1%;
+  font-size: 30px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.hambergur {
+  margin-left: 20px;
+  cursor: pointer;
+}

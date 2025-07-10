@@ -1,0 +1,34 @@
+.dashboard-users {
+  width: 70vw;
+  // min-width: 1000px;
+  margin-inline: auto;
+  overflow: auto;
+
+  &::-webkit-scrollbar{
+      display: none;
+    }
+    scrollbar-width: none;
+}
+
+// .table thead th{
+//     text-transform: uppercase;
+//     font-size: 13px;
+//     letter-spacing: 1px;
+//     font-weight: 500;
+// }
+
+// td{
+//     font-size: 15.5px;
+// }
+
+// tbody,tr{
+//     width: 100%;
+
+// }
+
+
+@media screen and (max-width: 768px) {
+  .dashboard-users {
+    width: 97vw;
+  }
+}

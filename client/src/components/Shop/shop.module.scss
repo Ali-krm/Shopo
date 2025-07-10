@@ -1,0 +1,14 @@
+.shoptitle{
+    width: 90%;
+    margin-inline: auto;
+    margin: 4% auto 2% auto;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .shoptitle{
+        
+        margin: 10% auto 10% auto;
+    }
+}

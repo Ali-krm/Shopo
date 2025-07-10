@@ -1,0 +1,251 @@
+.card-slider{
+    height: 50vh;
+    // width: 85%;
+    width: fit-content;
+    padding: 0;
+    display:flex;
+    align-items: center;
+    position: relative;
+    justify-self: center;
+    border-radius: 10px;
+    margin-bottom: 200px;
+    padding-bottom: 20px;
+    margin-top: auto;
+    align-items: flex-start;
+    box-sizing: border-box;
+    & li {
+        list-style: none;
+    }
+}
+
+.cardwrap{
+    margin-top: 3%;
+    // min-width: 20vw;
+    // max-width: 20vw;
+    min-width: 28%;
+    max-width: 28%;
+    height: 55vh;
+    padding: 0px 0px 0px 10px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: .5s ease;
+
+    & > *{
+        min-width: 100%;
+    }
+}
+
+
+.card-right-btn{
+    background: 0;
+    height: 42px;
+    width: 42px;
+    border-radius: 100vh;
+    background-color: rgb(233, 233, 233);
+    border: none;
+    color: rgb(94, 94, 94);
+    position: sticky;
+    right: 3.5%;
+    margin-top: 170px;
+    transition: 0.5s ease;
+    &:hover{
+        color: black;
+        background-color: whitesmoke;
+    }
+    
+}
+
+.card-left-btn{
+    background: 0;
+    position: absolute;
+    margin-top: 170px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 100vh;
+    height: 42px;
+    width: 42px;
+    left: 3%;
+    border: none;
+    margin-right: 30px;
+    color: rgb(72, 72, 72);
+    left: 3%;
+    transition: 0.5s ease;
+    &:hover{
+        color: black;
+        background-color: whitesmoke;
+    }
+}
+
+
+
+
+.producttitle{
+    font-family: surveyor text a,surveyor text b,Georgia,serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #000;
+    font-size: 36px  !important;
+    line-height: 2.5;
+    letter-spacing: 0;
+
+}
+
+
+.discription{
+    font-family: din-2014,helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: .05em;
+  
+}
+
+.info{
+    text-align: center;
+    justify-items: center;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    
+}
+
+
+.embla {
+    --slide-spacing: 1rem;
+    --slide-size: 24.7%;
+    --slide-height: 19rem;
+    padding: 1.6rem;
+    position: relative;
+  }
+
+  .rightArrow,.leftArrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 100;
+  }
+
+  .leftArrow{
+    left: 10px;
+  }
+  .rightArrow{
+    right: 10px;
+  }
+
+  .embla__viewport {
+    overflow: hidden;
+    width: 95%;
+    margin-inline: auto;
+    padding-block: 20px;
+  }
+  .embla__container {
+    backface-visibility: hidden;
+    display: flex;
+    touch-action: pan-y;
+    margin-right: calc(var(--slide-spacing) * -1);
+  }
+  .embla__slide {
+    flex: 0 0 var(--slide-size);
+    min-width: 0;
+    padding-right: var(--slide-spacing);
+    position: relative;
+    padding-left: 5px;
+}
+@media screen and (max-width: 768px) {
+    
+  .embla__viewport {
+    width: 98%;
+  }
+  .embla__slide {
+      flex: 0 0 99%;
+    }
+    .leftArrow{
+        left: -5px;
+    }
+    .rightArrow{
+      right: -5px;
+    }
+  }
+  .embla__button {
+    -webkit-appearance: none;
+    background-color: transparent;
+    touch-action: manipulation;
+    display: inline-flex;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+  .embla__buttons {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1.6rem;
+  }
+  .embla__button {
+    z-index: 1;
+    color: var(--background-site);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 4rem;
+    height: 4rem;
+  }
+  .embla__button:disabled {
+    opacity: 0.3;
+  }
+  .embla__button__svg {
+    width: 65%;
+    height: 65%;
+  }
+  .embla__dot {
+    -webkit-appearance: none;
+    background-color: transparent;
+    touch-action: manipulation;
+    display: inline-flex;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin: 0;
+  }
+  .embla__dots {
+    z-index: 1;
+    bottom: 1.6rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .embla__dot {
+    width: 2.4rem;
+    height: 2.4rem;
+    display: flex;
+    align-items: center;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+  }
+  .embla__dot:after {
+    background: var(--background-site);
+    border-radius: 0.2rem;
+    width: 100%;
+    height: 0.3rem;
+    content: '';
+  }
+  .embla__dot--selected:after {
+    background: linear-gradient(
+      45deg,
+      var(--brand-primary),
+      var(--brand-secondary)
+    );
+  }
+  
+
+  

@@ -1,0 +1,27 @@
+# ---- Global ----
+.DS_Store
+*.log
+
+# ---- Node.js / React (client) ----
+client/node_modules/
+client/build/
+client/.env
+client/.parcel-cache
+client/.next
+client/dist/
+client/coverage/
+
+# ---- .NET Core (api) ----
+api/bin/
+api/obj/
+api/.vs/
+api/*.user
+api/*.suo
+api/*.userosscache
+api/*.sln.docstates
+api/.vscode/
+api/.env
+
+# ---- OS files ----
+Thumbs.db
+ehthumbs.db

@@ -1,0 +1,63 @@
+.order-select {
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    outline:0;
+    box-shadow:none;
+    border:0!important;
+    // background: #5c6664;
+    background-image: none;
+    flex: 1;
+    padding: 0 .5em;
+    color:#fff;
+    cursor:pointer;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+padding: 15px;
+ }
+ .order-select::-ms-expand {
+    display: none;
+ }
+ .select {
+    position: relative;
+    display: flex;
+    width: 9em;
+    height: 2em;
+    overflow: hidden;
+    border-radius: .25em;
+    align-items: center;
+ }
+ .select::after {
+    // content: '\25BC';
+    content: '\2193';
+    position: absolute;
+    right: 0;
+    padding: 0 1em;
+    color: #fff;
+    width: fit-content;
+    cursor:pointer;
+    pointer-events:none;
+    transition:.25s all ease;
+ }
+//  .select:hover::after {
+//     color: #23b499;
+//  }
+
+ .Processing{
+    background: #FF6E40;
+}
+
+.Refunded{
+    background-color: #293134;
+}
+.Shipped{
+    background-color: #FAAE42;
+}
+.Completed{
+    background-color: #05B171;
+}
+
+.Cancelled{
+    background-color: #EA4444;
+}

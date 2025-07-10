@@ -1,0 +1,99 @@
+.pagination-container{
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    justify-self: center;
+    align-self: center;
+    /* width: 100%; */
+    align-content: center;
+}
+
+.pagination-container>*{
+    margin-right: 8px;
+    list-style: none;
+}
+.page-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    margin-bottom: 3%;
+    bottom: 0;
+}
+
+
+.page{
+    border: 1px solid black;
+    padding: 17px;
+    /* padding: .375rem .75rem; */
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    font-size: 17px;
+    color: black;
+    border: none;
+    /* background-color: #e9ecef; */
+}
+
+.active-page{
+    background-color: rgb(32, 32, 120);
+    color: white;
+    border: none;
+}
+
+.page-prev{
+    
+    border: 1px solid black;
+    padding: 17px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    font-size: 17px;
+    color: black;
+    border: none;
+}
+.page-prev:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(32, 32, 120) 0px 0px 0px 2px;
+    color: rgb(32, 32, 120);
+}
+.page-next:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(32, 32, 120) 0px 0px 0px 2px;
+    color: rgb(32, 32, 120);
+}
+.page:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(32, 32, 120) 0px 0px 0px 2px;
+    color: rgb(32, 32, 120);
+}
+.active-page:hover{
+    background-color: rgb(32, 32, 120);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(32, 32, 120) 0px 0px 0px 0px;
+}
+.page-next{
+    border: 1px solid black;
+    padding: 17px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+    color: black;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .page-container{
+        margin-bottom: 5%;
+    }
+}

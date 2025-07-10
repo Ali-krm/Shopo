@@ -1,0 +1,166 @@
+
+.wraper{
+    position: fixed;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    width: 43vw;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    color: black;
+    border-left:1px solid rgb(185, 185, 185);
+    overflow-y: scroll;
+    
+}
+.main{
+    width: 70%;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-left: 10%;
+    //overflow-y: scroll;
+}
+
+
+
+.products{
+    margin-right: auto;
+    // margin-left: 5%;
+    // margin-top: 5%;
+    // //height: 100%;
+
+}
+
+
+
+.productContainer{
+    display: flex;
+    height: 15vh;
+
+    margin-bottom: 40px;
+}
+
+
+.imageContainer{
+    height: 100%;
+    width: 25%;
+    margin-right: 9%;
+    border-radius: 10px;
+    height: 14vh;
+    padding-bottom: 15px;
+    position: relative;
+}
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.productUpper{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.productLower{
+    display: flex;
+    align-self: center;
+}
+
+
+
+
+
+
+
+.popupCheckout{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    border-bottom: .5px solid black;
+    padding-bottom: 15px;
+ 
+}
+.checkoutDetail{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px 15px 0px;
+    margin-right: auto;
+    font-size: 14px;
+    //margin-left: 5%;
+    width: 100%;
+    //border-top: .5px solid black;
+}
+
+
+
+.productContainer{
+    border-bottom: .5px solid black;
+    margin-top:25px;
+    margin-bottom: 15px;
+    padding-bottom: 25px;
+}
+
+.productMMDetail{
+    display: flex;
+    height: 100%;
+    width: 75%;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.shipping{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 14px;
+}
+
+.giftcard {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0px 25px 0px;
+    border-bottom: 0.5px solid black;
+    & input{
+        padding: 10px;
+        width: 74%;
+        border-radius: 5px;
+        border: 1px solid #d9d9d9;
+    }
+    & button {
+        width: 23%;
+        border-radius: 5px;
+        border: 1px solid #d9d9d9;
+    }
+}
+
+.totalwraper{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px 15px 0px;
+    margin-right: auto;
+    font-size: 17px;
+    //margin-left: 5%;
+    width: 100%;
+}
+
+.cout{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -8px;
+    margin-top: -8px;
+    opacity: .9;
+    font-size: 15px;
+    background-color: #7E7E7E;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    align-self: center;
+    display: inline-grid;
+    align-content: center;
+}
