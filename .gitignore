@@ -11,126 +11,126 @@ client/.next
 client/dist/
 client/coverage/
 
-# === .NET Core + Visual Studio ===
-/api/bin/
-/api/obj/
-/api/.vs/
-/api/Properties/launchSettings.json
+# # === .NET Core + Visual Studio ===
+# /api/bin/
+# /api/obj/
+# /api/.vs/
+# /api/Properties/launchSettings.json
 
-# User-specific files
-/api/*.rsuser
-/api/*.suo
-/api/*.user
-/api/*.userosscache
-/api/*.sln.docstates
+# # User-specific files
+# /api/*.rsuser
+# /api/*.suo
+# /api/*.user
+# /api/*.userosscache
+# /api/*.sln.docstates
 
-# Logs
-/api/*.log
-/api/Logs/
+# # Logs
+# /api/*.log
+# /api/Logs/
 
-# Build results
-/api/[Dd]ebug*/
-/api/[Rr]elease*/
-/api/x64/
-/api/x86/
-/api/bld/
-/api/*.dll
-/api/*.exe
-/api/*.pdb
-/api/*.cache
-/api/Generated\ Files/
-/api/.vscode/
-/api/ScaffoldingReadMe.txt
+# # Build results
+# /api/[Dd]ebug*/
+# /api/[Rr]elease*/
+# /api/x64/
+# /api/x86/
+# /api/bld/
+# /api/*.dll
+# /api/*.exe
+# /api/*.pdb
+# /api/*.cache
+# /api/Generated\ Files/
+# /api/.vscode/
+# /api/ScaffoldingReadMe.txt
 
-# ASP.NET + IIS Express
-/api/appsettings.*.json
-/api/appsettings.json
-/api/wwwroot/
-/api/PublishScripts/
-/api/*.Publish.xml
-/api/*.pubxml
-/api/*.publishproj
+# # ASP.NET + IIS Express
+# /api/appsettings.*.json
+# /api/appsettings.json
+# /api/wwwroot/
+# /api/PublishScripts/
+# /api/*.Publish.xml
+# /api/*.pubxml
+# /api/*.publishproj
 
-# Test results
-/api/TestResult*/
-api/*.coverage
-api/*.coveragexml
-/api/BenchmarkDotNet.Artifacts/
-/api/*.nunit.xml
-/api/coverage*.json
-/api/coverage*.xml
-/api/coverage*.info
+# # Test results
+# /api/TestResult*/
+# api/*.coverage
+# api/*.coveragexml
+# /api/BenchmarkDotNet.Artifacts/
+# /api/*.nunit.xml
+# /api/coverage*.json
+# /api/coverage*.xml
+# /api/coverage*.info
 
-# IDE tooling
-/api/.idea/
-/api/.ionide/
-/api/*.sln.iml
+# # IDE tooling
+# /api/.idea/
+# /api/.ionide/
+# /api/*.sln.iml
 
-# NuGet
-/api/packages/
-/api/*.nupkg
-/api/*.snupkg
-/api/project.lock.json
-/api/project.fragment.lock.json
-/api/artifacts/
-/api/*.nuget.props
-/api/*.nuget.targets
+# # NuGet
+# /api/packages/
+# /api/*.nupkg
+# /api/*.snupkg
+# /api/project.lock.json
+# /api/project.fragment.lock.json
+# /api/artifacts/
+# /api/*.nuget.props
+# /api/*.nuget.targets
 
-# ReSharper
-/api/_ReSharper*/
-/api/*.DotSettings.user
+# # ReSharper
+# /api/_ReSharper*/
+# /api/*.DotSettings.user
 
-# Rider
-/api/.idea/
+# # Rider
+# /api/.idea/
 
-# Code coverage and analysis
-/api/OpenCover/
-/api/*.dotCover
-/api/FakesAssemblies/
+# # Code coverage and analysis
+# /api/OpenCover/
+# /api/*.dotCover
+# /api/FakesAssemblies/
 
-# Entity Framework / Migrations cache
-/api/Migrations/*Snapshot.cs
+# # Entity Framework / Migrations cache
+# /api/Migrations/*Snapshot.cs
 
-# Tye
-/api/.tye/
+# # Tye
+# /api/.tye/
 
-# Azure Emulator
-/api/ecf/
-/api/rcf/
+# # Azure Emulator
+# /api/ecf/
+# /api/rcf/
 
-# MSBuild logs
-/api/*.binlog
-/api/[Bb]uild[Ll]og.*
+# # MSBuild logs
+# /api/*.binlog
+# /api/[Bb]uild[Ll]og.*
 
-# Visual Studio Mac cache
-/api/*.userprefs
-/api/.DS_Store
+# # Visual Studio Mac cache
+# /api/*.userprefs
+# /api/.DS_Store
 
-# VS Code
-/api/.vscode/*
-!/api/.vscode/settings.json
-!/api/.vscode/launch.json
-!/api/.vscode/tasks.json
+# # VS Code
+# /api/.vscode/*
+# !/api/.vscode/settings.json
+# !/api/.vscode/launch.json
+# !/api/.vscode/tasks.json
 
-# SQLite or local DB
-/api/*.mdf
-/api/*.ldf
-/api/*.dbmdl
+# # SQLite or local DB
+# /api/*.mdf
+# /api/*.ldf
+# /api/*.dbmdl
 
-# === Node/React-specific folders (for when client is added) ===
-client/node_modules/
-client/build/
-client/.env
-client/.next/
-client/.parcel-cache/
-client/coverage/
+# # === Node/React-specific folders (for when client is added) ===
+# client/node_modules/
+# client/build/
+# client/.env
+# client/.next/
+# client/.parcel-cache/
+# client/coverage/
 
-# === Global OS files ===
-.DS_Store
-Thumbs.db
-ehthumbs.db
+# # === Global OS files ===
+# .DS_Store
+# Thumbs.db
+# ehthumbs.db
 
 
-# ---- OS files ----
-Thumbs.db
-ehthumbs.db
+# # ---- OS files ----
+# Thumbs.db
+# ehthumbs.db
